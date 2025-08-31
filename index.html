@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Cozy Corner: Your guide to finding the perfect local coffee shop. Discover cafes based on their vibe, explore signature drinks, and join a community of coffee lovers.">
+    <meta name="keywords" content="cozy cafe, coffee shop, local cafe, work-friendly cafe, quiet coffee, specialty coffee, latte, pastries">
+    <meta name="author" content="The Cozy Corner">
+    <title>The Cozy Corner - Find Your Perfect Coffee Spot</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero-section">
+        <nav class="navbar" id="navbar">
+            <a href="#" class="logo" aria-label="The Cozy Corner homepage">The Cozy Corner</a>
+            
+            <button class="hamburger" id="hamburger" aria-label="Open mobile navigation menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#hero" aria-label="Scroll to home section">Home</a></li>
+                <li><a href="#featured-spots" aria-label="Explore featured cafes">Find a Cafe</a></li>
+                <li><a href="#signature-drinks" aria-label="Discover our signature drinks">Signature Drinks</a></li>
+                <li><a href="#community" aria-label="See what our community says">Community</a></li>
+                <li><a href="#contact" aria-label="Scroll to contact us section">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content" id="hero">
+            <h1>Find Your Perfect<br>Cozy Corner</h1>
+            <p>From productive work sessions to quiet afternoons, discover the ideal cafe for your mood.</p>
+        
+        </div>
+    </header>
+
+    <main>
+        <section class="philosophy-section" id="about">
+            <div class="image-container">
+                <img src="A bright and airy cafe interior.jpg" alt="A bright and airy cafe interior with plants and comfortable seating." loading="lazy">
+            </div>
+            <div class="text-container">
+                <h3>Our Philosophy</h3>
+                <h2>It's More Than Just Coffee</h2>
+                <p>
+                    We believe a cafe is a community's living room. It’s a place to connect, create, and simply be. Our mission is to help you find those special spots—the ones with the perfect lighting, the comfiest chairs, and that unmistakable aroma of freshly brewed coffee. We celebrate the craft, comfort, and community that make coffee shops a cherished part of our lives.
+                </p>
+                <a href="#" class="btn hover-effect" aria-label="Read more about our philosophy">Learn More</a>
+            </div>
+        </section>
+
+        <section class="cafes-section" id="featured-spots">
+            <h2>This Week's Featured Spots</h2>
+            <p>Discover a new favorite. Filter by the vibe you're looking for today.</p>
+
+            <div class="filters">
+                <button class="btn active" data-filter="all">All Spots</button>
+                <button class="btn" data-filter="Good for Work">Good for Work</button>
+                <button class="btn" data-filter="Cozy & Quiet">Cozy & Quiet</button>
+                <button class="btn" data-filter="Bustling & Social">Bustling & Social</button>
+            </div>
+
+            <div class="cafes-grid" id="cafes-grid">
+                </div>
+        </section>
+        
+        <section class="signature-drinks-section" id="signature-drinks">
+            <h2>Signature Drinks Showcase</h2>
+            <p>Explore some of the delightful creations you can find at our featured cafes.</p>
+            <div class="drinks-container">
+                <div class="drink-item">
+                    <img src="C:\Users\yashm\OneDrive\Desktop\cofee shop menu\The Perfect Flat White.jfif" alt="A perfectly made flat white with latte art." class="drink-image">
+                    <div class="drink-info">
+                        <h4>The Perfect Flat White</h4>
+                        <p>A velvety smooth coffee with a perfect balance of rich espresso and steamed milk. Ideal for a morning pick-me-up.</p>
+                    </div>
+                </div>
+                <div class="drink-item">
+                    <img src="C:\Users\yashm\OneDrive\Desktop\cofee shop menu\Artisanal Spiced Cold Brew.webp" alt="A glass of spiced cold brew coffee with an orange peel." class="drink-image">
+                    <div class="drink-info">
+                        <h4>Artisanal Spiced Cold Brew</h4>
+                        <p>Slow-steeped for 18 hours and infused with notes of cinnamon and citrus. Incredibly smooth and refreshing.</p>
+                    </div>
+                </div>
+                <div class="drink-item">
+                    <img src="C:\Users\yashm\OneDrive\Desktop\cofee shop menu\Ceremonial Matcha Latte.jpg" alt="A vibrant green matcha latte in a ceramic bowl." class="drink-image">
+                    <div class="drink-info">
+                        <h4>Ceremonial Matcha Latte</h4>
+                        <p>A creamy, vibrant, and antioxidant-rich latte made with high-quality matcha for a calm, focused energy boost.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="community-section" id="community">
+            <h2>From Our Community</h2>
+            <p>We love hearing about your cafe adventures!</p>
+            <div class="testimonials-container">
+                <div class="testimonial-card">
+                    <p>"I found the most amazing quiet spot to read my book, all thanks to The Cozy Corner. The 'Cozy & Quiet' filter is a game-changer!"</p>
+                    <h4>- Amelia R.</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"As a freelancer, finding a reliable cafe with good Wi-Fi is everything. The 'Good for Work' filter has saved me so much time."</p>
+                    <h4>- Ben C.</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"This site helped me discover a bustling cafe with amazing energy and even better espresso. It's my new go-to for meeting friends."</p>
+                    <h4>- Chloe T.</h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <h2>Share a Hidden Gem</h2>
+            <p>Know a cafe that we should feature? We'd love to hear from you. Reach out and help our community grow.</p>
+            <form action="#" method="POST" class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required aria-label="Your full name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required aria-label="Your email address">
+
+                <label for="message">Your Recommendation & Message</label>
+                <textarea id="message" name="message" rows="5" required aria-label="Your message"></textarea>
+
+                <button type="submit" class="btn">Send Recommendation</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3>The Cozy Corner</h3>
+                <p>Find your perfect brew, your way.</p>
+            </div>
+            <div class="footer-links">
+                <h4>QUICK LINKS</h4>
+                <ul>
+                    <li><a href="#about" class="hover-effect">Our Philosophy</a></li>
+                    <li><a href="#featured-spots" class="hover-effect">Find a Cafe</a></li>
+                    <li><a href="#" class="hover-effect">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>CONTACT US</h4>
+                <ul>
+                    <li><a href="mailto:hello@thecozycorner.com" class="hover-effect">hello@thecozycorner.com</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>FOLLOW US</h4>
+                <div class="social-icons">
+                    <a href="#" class="hover-effect" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="hover-effect" aria-label="Follow us on Pinterest"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 The Cozy Corner. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div class="cafe-modal" id="cafe-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-title">Cafe Name</h3>
+                <button class="close-modal" id="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <img id="modal-image" src="" alt="Interior of the cafe" class="modal-main-image">
+                <div class="cafe-details">
+                    <div class="detail-item">
+                        <h5><i class="fas fa-map-marker-alt"></i> Location</h5>
+                        <p id="modal-location">City, Country</p>
+                    </div>
+                    <div class="detail-item">
+                        <h5><i class="fas fa-star"></i> Specialty</h5>
+                        <p id="modal-specialty">Coffee & Food</p>
+                    </div>
+                    <div class="detail-item">
+                        <h5><i class="fas fa-clock"></i> Hours</h5>
+                        <p id="modal-hours">Mon-Fri: 7am-9pm</p>
+                    </div>
+                    <div class="detail-item">
+                        <h5><i class="fas fa-lightbulb"></i> Vibe</h5>
+                        <p id="modal-vibe">Cafe Vibe</p>
+                    </div>
+                </div>
+                <div class="cafe-description" id="modal-description">
+                    Detailed description will be loaded here...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
